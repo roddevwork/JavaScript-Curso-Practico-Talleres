@@ -7,7 +7,7 @@
 - [click here](https://roddevwork.github.io/JavaScript-Curso-Practico-Talleres/)
 
 <kbd>
- <img src="imgs/webIndex.jpg" alt="home page" width="200px">
+ <img src="imgs/web-index.jpg" alt="home page" width="200px">
 </kbd>
  
 

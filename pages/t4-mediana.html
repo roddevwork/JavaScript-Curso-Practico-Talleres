@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mediana</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/t3-promedios.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-left">
+        <a href="../index.html">
+          <img src="../imgs/back-arrow.svg" alt="arrow back" />
+        </a>
+      </nav>
+      <h1>Mediana</h1>
+      <p>#3-Taller-js</p>
+    </header>
+    <!--- Main --->
+    <main>
+      <section class="container">
+        <h2>Calcular Mediana</h2>
+        <form id="form__promedio" class="form">
+          <label for="InputCantidadValores">
+            Cantidad de números a calcular ?
+          </label>
+          <input
+            class="input"
+            id="inputCantidadNumeros"
+            type="number"
+            placeholder="Cantidad "
+          />
+          <div class="btns">
+            <button type="button" onclick="cantidadElementos()">
+              Ingresar cantidad
+            </button>
+          </div>
+          <div id="inputGenerados" class="inputGenerados"></div>
+        </form>
+        <p id="resultadoPantalla" class="resultadoPantalla"></p>
+        <nav class="nav-recargar">
+          <a href="t4-mediana.html">Refrescar</a>
+        </nav>
+      </section>
+    </main>
+    <!--  Footer -->
+    <footer class="footer">
+      <a href="/">Development by Rod Design</a>
+    </footer>
+    <script src="../js/t4-mediana.js"></script>
+  </body>
+</html>

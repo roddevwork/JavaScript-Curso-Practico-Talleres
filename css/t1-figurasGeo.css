@@ -11,9 +11,11 @@ h2 {
 
 .container {
   width: 300px;
-  height: auto;
+  width: 300px;
+  height: 300px;
   border: 1px solid var(--border-color);
   border-radius: 20px;
+  
 }
 
 .container-fig-geo {

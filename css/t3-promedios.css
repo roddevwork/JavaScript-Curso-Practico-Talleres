@@ -1,0 +1,31 @@
+.container {
+  padding-top: 50px;
+}
+.btns button {
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+.div-dinamico {
+  margin-top: 10px;
+}
+.inputGenerados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inputGenerados input {
+  width: 80px;
+  margin-right: 7px;
+}
+.nav-recargar a {
+  display: block;
+  margin-top: 40px;
+  padding: 10px;
+}
+.resultadoPantalla {
+  margin: 10px auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #9acd32;
+}

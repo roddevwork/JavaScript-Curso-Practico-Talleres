@@ -1,6 +1,5 @@
-/*
- * Funciones de lógica
- * Calcular perímetro y área*/
+
+//* Calcular perímetro y área
 /*
  * Cudrado
  */

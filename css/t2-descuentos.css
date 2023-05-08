@@ -1,0 +1,15 @@
+#resultadoJS {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: #9acd32;
+}
+.container {
+  padding-top: 50px;
+}
+.container h2 {
+  text-align: center;
+}
+.btns button {
+  margin-left: 0;
+}

@@ -1,6 +1,6 @@
 
 //* Funciones
- * /
+
 function calcularSumaLista(lista) {
   let sumalista = 0;
   for (i = 0; i < lista.length; i++) {
@@ -10,7 +10,7 @@ function calcularSumaLista(lista) {
 }
 function calcularMediaAritmetica(lista) {
   const promediolista = calcularSumaLista(lista) / lista.length;
-  return promediolista;
+  return promediolista.toFixed(2);
 }
 /*
  * DOM
@@ -27,8 +27,6 @@ function calcularPromedio() {
   for (let i = 0; i < array.length; i++) {
     array2.push(Number(array[i].value));
   }
-  console.log("array2: ");
-  console.log(array2);
 
   const promedioFinal = calcularMediaAritmetica(array2);
   // console.log("el promedio es:" + promedioT);

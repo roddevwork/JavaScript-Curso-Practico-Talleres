@@ -121,7 +121,7 @@ main {
   align-items: center;
 }
 .menu__list p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .container__menu li a:hover {
   color: var(--font);

@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Descuentos</title>
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <link rel="stylesheet" href="../css/t2-descuentos.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="nav-left">
-        <a href="../index.html">
-          <img src="../imgs/back-arrow.svg" alt="arrow back" />
-        </a>
-      </nav>
-      <h1>Porsentajes y descuentos</h1>
-      <p>#2-Taller-js</p>
-    </header>
-    <main>
-      <section class="container">
-        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
-        <form class="form">
-          <label for="inputPrice">Escribe el precio de tu producto</label>
-          <input
-            id="inputPrice"
-            class="input"
-            type="number"
-            placeholder="precio"
-          />
-          <label for="inputDiscount">Escribe el descuento de tu producto</label>
-          <input
-            id="inputDiscount"
-            class="input"
-            type="number"
-            placeholder="descuento"
-          />
-          <div class="btns">
-            <button type="button" onclick="onClickButtonPriceDiscount()">
-              Calcular
-            </button>
-          </div>
-        </form>
-        <p id="resultadoJS"></p>
-      </section>
-    </main>
-    <!--  Footer -->
-    <footer class="footer">
-      <a href="/">Development by Rod Design</a>
-    </footer>
-    <script src="../js/t2-descuentos.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Descuentos</title>
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/t2-descuentos.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-left">
+      <a href="../index.html">
+        <img src="../imgs/back-arrow.svg" alt="arrow back" />
+      </a>
+    </nav>
+    <h1>Porsentajes y descuentos</h1>
+    <p>#2-Taller</p>
+  </header>
+  <main>
+    <section class="container">
+      <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+      <form class="form">
+        <label for="inputPrice">Escribe el precio de tu producto</label>
+        <input id="inputPrice" class="input" type="number" placeholder="precio" />
+        <label for="inputDiscount">Escribe el descuento de tu producto</label>
+        <input id="inputDiscount" class="input" type="number" placeholder="descuento" />
+        <div class="btns">
+          <button type="button" onclick="onClickButtonPriceDiscount()">
+            Calcular
+          </button>
+        </div>
+      </form>
+      <p id="resultadoJS"></p>
+    </section>
+  </main>
+  <!--  Footer -->
+  <footer class="footer">
+    <a href="/">Development by Rod Design</a>
+  </footer>
+  <script src="../js/t2-descuentos.js"></script>
+</body>
+
 </html>
